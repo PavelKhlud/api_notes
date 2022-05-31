@@ -130,6 +130,9 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+FIXTURE_DIRS = (
+    os.path.join(BASE_DIR, 'fixtures'),
+)
 
 # JWT authentication
 
